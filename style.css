@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* begin of navbar*/
+.nav
+{
+    width: 100%;
+    background-color: #0F9D58;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.brand
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.logo-des
+{
+    color: white;
+}
+.brand img
+{
+    width: 50px;
+
+}
+.menu
+{
+    width: 30%;
+}
+.menu-list
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+   
+}
+.menu-list li
+{
+   color: white;
+  
+}
+/* end navbar*/
+/*begin slider*/
+.slider
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #0F9D58;
+    margin-top: 1px;
+
+}
+.p
+{
+    background-color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.slider-form label
+{
+    color: white;
+}
+[type="email"]
+{
+    all: unset;
+    margin:10px 0;
+    background-color: white;
+    padding: 12px 100px 12px  20px ;
+    border-radius: 20px;
+
+}
+[type="button"]
+{
+    all: unset;
+    color: white;
+    background-color: #1c3c2d7c;
+    padding: 12px 50px;
+    border-radius: 20px;
+}
+/*end slider*/
+/* begin body */
+.cards
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.card
+{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+.card h4
+{
+    margin-bottom: 10px;
+}
+.card i
+{
+    font-size: 30px;
+    color: #0F9D58;
+}
+/* end body */
